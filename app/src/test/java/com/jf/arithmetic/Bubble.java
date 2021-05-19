@@ -22,8 +22,8 @@ public class Bubble {
         String ab = a + b;
         System.out.println(ab);
         int[] array = {29, 10, 14, 37, 20, 25, 44, 15};
-        doBubbleSrt(array);
-        doBubbleBetterSrt(array);
+//        doBubbleSrt(array);
+//        doBubbleBetterSrt(array);
         doBubbleBestSrt(array);
     }
 
@@ -85,12 +85,13 @@ public class Bubble {
                     int temp = array[j];
                     array[j] = array[j + 1];
                     array[j + 1] = temp;
-                    flag=true;
+                    flag = true;
                 }
             }
             System.out.println("第" + (i + 1) + "轮排序后数组为:" + StringUtil.print(array));
-            if (!flag){
-
+            if (!flag) {
+                System.out.println("第" + (i + 1) + "轮排序未发生排序变化");
+                return;
             }
 
         }
