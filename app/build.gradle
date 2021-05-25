@@ -29,7 +29,7 @@ android {
 }
 
 dependencies {
-
+    implementation 'com.github.jianfeng0706:JfInternetLib:1.0.1'
     implementation "androidx.appcompat:appcompat:${appcompatVersion1}"
     implementation "com.google.android.material:material:${materialVersion}"
     implementation "androidx.constraintlayout:constraintlayout:${constraintlayoutVersion}"

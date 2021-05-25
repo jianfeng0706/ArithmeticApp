@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.jf.internetlib.StringUtil;
+
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
